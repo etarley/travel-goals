@@ -2,6 +2,21 @@ body {
   font-family: "quicksand", sans-serif;
   margin: 0px;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header li {
+  margin-left: 20px;
+}
+
 ul {
   list-style: none;
   margin: 0;
