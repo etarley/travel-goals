@@ -40,3 +40,59 @@
 #hero-content a:hover {
   background-color: rgb(255, 241, 0);
 }
+#highlights {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+#highlights h2 {
+  font-size: 40px;
+  color: rgb(59, 55, 64);
+  margin: 24px 0;
+}
+
+#destinations {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.places {
+  margin: 0px 20px;
+}
+.places img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+.places p {
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px O;
+}
+.places strong {
+  color: rgb(0, 160, 117);
+}
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 0 30px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}
